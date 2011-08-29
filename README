@@ -1,1 +1,13 @@
-Draw and share.
+Sketch Bin - A simple Drawing Pad!
+This is a simplified version of Spark Sketch.
+
+Spark Sketch is an online paint app with social network sharing enabled. You can
+paint what you want and share it with your friends. Then they can adjust it
+and send it back to you.
+
+Requires:
+* PHP 5.3.x
+* MySQL 5.x
+* At least 100 MB space
+
+This version is based on Spark Sketch 0.3.3.
