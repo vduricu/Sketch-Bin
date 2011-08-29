@@ -5,7 +5,6 @@ Sketch Bin - Based on Spark Sketch 0.3.3
 
 var body, canvas, ctx, coords, last_coords, touchdown,drawLine,move,bkgColor,textSize;
 var restorePoints=[],rRestorePoints=[],tools={},status='new',filename='';
-var siteURL='localhost/Sketch-Bin';
 
 body = document.querySelector("body");
 canvas = document.getElementById('drawingPad');
@@ -399,6 +398,7 @@ var newDraw = function(){
 
 	currentBkg = defaultBkg;
 	$(".content .canvas").css({background: "#dfdfdf url('style/images/bkg.png')"});
+	window.location.href='./';
 	return false;
 }
 
